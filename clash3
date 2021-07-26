@@ -1,7 +1,4 @@
 proxies:
-- {"name":"🇦🇺AU_1036","server":"43.128.18.186","type":"ssr","country":"🇦🇺AU","port":1010,"password":"laobiao","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-- {"name":"🇦🇺AU_1037","server":"45.77.48.44","type":"ssr","country":"🇦🇺AU","port":8099,"password":"eIW0Dnk69454e6nSwuspv9DmS201tQ0D","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
-- {"name":"🇦🇺AU_1038","server":"45.77.48.44","type":"ssr","country":"🇦🇺AU","port":8099,"password":"eIW0Dnk69454e6nSwuspv9DmS201tQ0D","cipher":"aes-256-cfb","protocol":"origin","protocol-param":"WWW.YOUNEED.WIN","obfs":"plain","obfs-param":"WWW.YOUNEED.WIN"}
 - {"name":"Relay_🇨🇦CA-🇨🇦CA_1371","server":"ssr2.ssrsub.one","type":"ssr","country":"🇨🇦CA","port":47478,"password":"https://dlj.tf/ssrsub","cipher":"aes-256-cfb","protocol":"origin","protocol-param":"t.me/SSRSUB","obfs":"plain"}
 - {"name":"🇨🇦CA_1372","server":"142.44.133.196","type":"ssr","country":"🇨🇦CA","port":18888,"password":"c97fce048","cipher":"aes-256-cfb","protocol":"origin","protocol-param":"WWW.YOUNEED.WIN","obfs":"plain","obfs-param":"WWW.YOUNEED.WIN"}
 - {"name":"Relay_🇨🇦CA-🇨🇦CA_1373","server":"ssr4.ssrsub.one","type":"ssr","country":"🇨🇦CA","port":47478,"password":"https://dlj.tf/ssrsub","cipher":"aes-256-cfb","protocol":"origin","obfs":"plain"}
