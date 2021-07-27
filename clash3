@@ -20,3 +20,22 @@ proxies:
 - {"name":"🇹🇼TW_7963","server":"59.125.11.158","type":"ssr","country":"🇹🇼TW","port":8158,"password":"passinfo123","cipher":"rc4-md5","protocol":"origin","obfs":"plain"}
 - {"name":"Pool_🇺🇸US_11772","server":"107.148.240.137","type":"ssr","country":"🇺🇸US","port":8333,"password":"passfw2xs4e!","cipher":"rc4-md5","protocol":"origin","obfs":"plain"}
 - {"name":"Relay_🇺🇸US-🇺🇸US_11773","server":"ss.relaybit.top","type":"ssr","country":"🇺🇸US","port":11394,"password":"a02660","cipher":"aes-256-cfb","protocol":"origin","obfs":"http_simple","obfs-param":"bing.com#Connection: keep-alive\\nCookie: cid=a02660;Auth=required"}
+- {"name":"🇦🇺 AU_01","server":"45.248.78.45","type":"ss","country":"🇦🇺 AU","port":33992,"password":"8n6pwAcrrv2pj6tFY2p3TbQ6","cipher":"aes-256-gcm"}
+- {"name":"🇦🇺 AU_02","server":"45.248.79.67","type":"ss","country":"🇦🇺 AU","port":39772,"password":"CUndSZnYsPKcu6Kj8THVMBHD","cipher":"aes-256-gcm"}
+- {"name":"🇦🇺 AU_03","server":"45.248.78.45","type":"ss","country":"🇦🇺 AU","port":37588,"password":"kD9vkjnE6dsUzwQfvKkPkQAd","cipher":"aes-256-gcm"}
+- {"name":"🇦🇺 AU_04","server":"45.248.78.45","type":"ss","country":"🇦🇺 AU","port":34815,"password":"LkFAzkzXkSCRYa2CsRdL8cGb","cipher":"aes-256-gcm"}
+- {"name":"🇦🇺 AU_05","server":"43.129.245.44","type":"vmess","country":"🇦🇺 AU","port":80,"uuid":"723cef6b-c833-42e5-92a8-ebf629e183ed","alterId":64,"cipher":"auto","network":"ws","ws-path":"/chinaunicom","servername":"pull.free.video.10010.com","ws-headers":{"HOST":"pull.free.video.10010.com"},"http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":"🇧🇦 BA_06","server":"185.99.3.7","type":"ss","country":"🇧🇦 BA","port":33992,"password":"8n6pwAcrrv2pj6tFY2p3TbQ6","cipher":"aes-256-gcm"}
+- {"name":"🇨🇦 CA_07","server":"ss4.ssrsub.one","type":"ss","country":"🇨🇦 CA","port":6443,"password":"https://dlj.tf/ssrsub","cipher":"aes-128-gcm","plugin":"obfs","plugin-opts":{"host":"n46hm52773.wns.windows.com","mode":"tls"}}
+- {"name":"🇨🇦 CA_08","server":"ss3.ssrsub.one","type":"ss","country":"🇨🇦 CA","port":7443,"password":"suo.yt/ssrsub","cipher":"aes-128-gcm","plugin":"obfs","plugin-opts":{"host":"n46hm52773.wns.windows.com","mode":"tls"}}
+- {"name":"🇨🇦 CA_09","server":"ss6.ssrsub.one","type":"ss","country":"🇨🇦 CA","port":6443,"password":"https://dlj.tf/ssrsub","cipher":"aes-128-gcm","plugin":"obfs","plugin-opts":{"host":"n46hm52773.wns.windows.com","mode":"tls"}}
+- {"name":"🇨🇦 CA_10","server":"ss1.ssrsub.one","type":"ss","country":"🇨🇦 CA","port":7443,"password":"suo.yt/ssrsub","cipher":"aes-128-gcm","plugin":"obfs","plugin-opts":{"host":"n46hm52773.wns.windows.com","mode":"tls"}}
+- {"name":"🇨🇦 CA_11","server":"ss2.ssrsub.one","type":"ss","country":"🇨🇦 CA","port":6443,"password":"https://dlj.tf/ssrsub","cipher":"aes-128-gcm","plugin":"obfs","plugin-opts":{"host":"n46hm52773.wns.windows.com","mode":"tls"}}
+- {"name":"🇨🇦 CA_12","server":"ss5.ssrsub.one","type":"ss","country":"🇨🇦 CA","port":7443,"password":"suo.yt/ssrsub","cipher":"aes-128-gcm","plugin":"obfs","plugin-opts":{"host":"n46hm52773.wns.windows.com","mode":"tls"}}
+- {"name":"🇨🇭 CH_13","server":"84.17.53.210","type":"ss","country":"🇨🇭 CH","port":50168,"password":"WCuz7yrfZSCQQXSNrtGPz2HT","cipher":"aes-256-gcm"}
+- {"name":"🇨🇳 CN_14","server":"117.28.243.246","type":"ss","country":"🇨🇳 CN","port":8333,"password":"passfw2xs4e!","cipher":"rc4-md5"}
+- {"name":"🇨🇳 CN_15","server":"101.132.192.212","type":"ss","country":"🇨🇳 CN","port":30003,"password":"desperadoj.com_free_proxy_d39m","cipher":"aes-128-gcm"}
+- {"name":"🇨🇳 CN_16","server":"117.28.243.169","type":"ss","country":"🇨🇳 CN","port":8333,"password":"passfw2xs4e!","cipher":"rc4-md5"}
+- {"name":"🇨🇳 CN_17","server":"p7.22332e.com","type":"ss","country":"🇨🇳 CN","port":8333,"password":"passfw2xs4e!","cipher":"rc4-md5"}
+- {"name":"🇨🇳 CN_18","server":"p8.22332e.com","type":"ss","country":"🇨🇳 CN","port":8333,"password":"passfw2xs4e!","cipher":"rc4-md5"}
+- {"name":"🇨🇳 CN_19","server":"120.236.197.89","type":"vmess","country":"🇨🇳 CN","port":50003,"uuid":"53f853f1-df75-4014-9572-c9677db10dbc","alterId":1,"cipher":"auto","network":"ws","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
