@@ -88,4 +88,38 @@ proxies:
 - {"name":"🇺🇸 US_114","server":"104.18.7.138","type":"vmess","country":"🇺🇸 US","port":443,"uuid":"3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2","alterId":64,"cipher":"auto","network":"ws","ws-path":"/","servername":"cdnde.irteyz.today","ws-headers":{"HOST":"cdnde.irteyz.today"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
 - {"name":"🇺🇸 US_115","server":"104.19.45.117","type":"vmess","country":"🇺🇸 US","port":443,"uuid":"3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2","alterId":64,"cipher":"auto","network":"ws","ws-path":"/","servername":"cdnde.irteyz.today","ws-headers":{"HOST":"cdnde.irteyz.today"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
 - {"name":"🇺🇸 US_116","server":"hk79.99uu.team","type":"vmess","country":"🇺🇸 US","port":23430,"uuid":"bfcbfebe-3ef5-4ccf-b6f6-bb5d34550d11","alterId":64,"cipher":"auto","network":"ws","ws-path":"/v2","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+proxies:
+  - {name: 🇯🇵 八度空间 JP_3149 |17.19Mb, server: jp1.bingbinghouse.com, port: 443, type: trojan, password: b6nAWUk8cmqRRjxs, sni: jp1.bingbinghouse.com, skip-cert-verify: false}
+  - {name: 🇯🇵 八度空间 JP_3150 |13.62Mb, server: jp3.bingbinghouse.com, port: 443, type: trojan, password: 4zoU9iC3Q6LrHezl, sni: jp3.bingbinghouse.com, skip-cert-verify: false}
+  - {name: 🇯🇵 八度空间JP_3153 |61.26Mb, server: auto.freev2.top, port: 32794, type: vmess, uuid: d9b654fa-6914-4204-bc3c-7c826432814b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 八度空间 CN_806 | 8.00Mb, server: guangzhoucm.cdn223.me, port: 958, type: vmess, uuid: b815d9cf-eead-3fc1-8c27-9c1ff3962b69, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls, ws-headers: {Host: xingazhk1.xiaobaiyun.me}}
+  - {name: 🇯🇵 八度空间 JP_3134 |44.36Mb, server: 3.112.193.158, port: 30040, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: _05 | 6.78Mb, server: ss5.ssrsub.one, port: 5443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
+  - {name: 🇺🇸 八度空间 US_4867 |11.04Mb, server: 84.17.35.118, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: 🇺🇸 八度空间 US_5001 |19.14Mb, server: 84.17.35.118, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: 八度空间 CA_630 |23.74Mb, server: 208.78.41.198, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 八度空间 US_5154 |18.01Mb, server: 45.89.173.203, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇺🇸 八度空间 US_5728 |28.16Mb, server: 154.16.168.188, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 八度空间 US_6423 |17.64Mb, server: 154.16.168.188, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇺🇸 八度空间 US_6699 |19.03Mb, server: 54.215.234.182, port: 14924, type: vmess, uuid: d099824d-8259-4c45-f6ab-c1896f741393, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 八度空间 IT_2986 | 5.12Mb, server: 82.102.26.117, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 八度空间 IT_3017 | 6.96Mb, server: 82.102.26.117, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 🇺🇸 八度空间 US_5003 |26.73Mb, server: 104.148.30.53, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇸 八度空间 US_6686 |30.91Mb, server: 34.220.167.162, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 八度空间 CA_624 |20.18Mb, server: 208.78.41.201, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇳 八度空间 CN_795 |14.26Mb, server: 221.228.99.37, port: 8888, type: ss, cipher: aes-256-cfb, password: !<str> 123}
+  - {name: 🇩🇪 八度空间 DE_1005 | 8.92Mb, server: 185.93.180.101, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇸 八度空间 US_4811 | 8.59Mb, server: 84.17.35.118, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇨🇳 八度空间 CN_813 | 8.43Mb, server: cscu.hxlm.cc, port: 10011, type: vmess, uuid: 3d6a6885-4d84-4fad-bb60-6922f459b3f3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-au01.jerrui.com}}
+  - {name: 🇭🇰 八度空间 HK_2482 |27.74Mb, server: 23.101.11.40, port: 10008, type: vmess, uuid: 1dbaf7e9-f581-4b07-aad0-084f4ef2dd04, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: 23.101.11.40}}
+  - {name: 🇭🇰 八度空间 HK_2484 |30.49Mb, server: 23.101.11.40, port: 10012, type: vmess, uuid: 1dbaf7e9-f581-4b07-aad0-084f4ef2dd04, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /f932c3d98981b, ws-headers: {Host: 23.101.11.40}}
+  - {name: 🇭🇰 八度空间 HK_2480 |34.76Mb, server: 23.101.11.40, port: 10003, type: vmess, uuid: 1dbaf7e9-f581-4b07-aad0-084f4ef2dd04, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /f932c3d98981b, ws-headers: {Host: 23.101.11.40}}
+  - {name: 🇭🇰 八度空间 HK_2479 |22.94Mb, server: 23.101.11.40, port: 20022, type: vmess, uuid: 1dbaf7e9-f581-4b07-aad0-084f4ef2dd04, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /f932c3d98981b, ws-headers: {Host: 23.101.11.40}}
+  - {name: 🇭🇰 八度空间 HK_2481 |30.96Mb, server: 23.101.11.40, port: 20088, type: vmess, uuid: 1dbaf7e9-f581-4b07-aad0-084f4ef2dd04, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: 23.101.11.40}}
+  - {name: 🇸🇬 八度空间 SG_4483 |35.11Mb, server: 54.169.129.150, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
